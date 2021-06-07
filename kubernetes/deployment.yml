@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mypage
-          image: anticorona.azurecr.io/mypage:latest
+          image: skccanticorona.azurecr.io/mypage:latest
           ports:
             - containerPort: 8080
           readinessProbe:
